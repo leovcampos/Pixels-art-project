@@ -40,7 +40,7 @@ changeColor();
 const buttonReset = document.createElement('button');
 const divReset = document.querySelector('#reset');
 buttonReset.id = 'clear-board';
-buttonReset.innerText = 'Limpar'
+buttonReset.innerText = 'Clean'
 divReset.appendChild(buttonReset);
 
 function reset(){
@@ -96,3 +96,13 @@ function colorAlet(){
     }
 }
 colorAlet();
+
+const buttonPalet = document.createElement('button');
+buttonPalet.id = 'clear-board';
+buttonPalet.innerText = 'New'
+divReset.appendChild(buttonPalet);
+
+function newPalet(){
+    buttonPalet.addEventListener('click', colorAlet);
+}
+newPalet();
