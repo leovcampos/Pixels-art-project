@@ -54,13 +54,13 @@ function reset(){
 
 
 const inputB = document.createElement('input');
-
 const buttonNum = document.createElement('button');
 const divChoice = document.querySelector('#choiceNum');
 inputB.type = 'number';
 inputB.min = 1;
 inputB.id = 'board-size';
-buttonNum.innerText = 'VQV';
+inputB.placeholder = 'digite um número';
+buttonNum.innerText = 'Start';
 buttonNum.id = 'generate-board';
 
 function choice(){
