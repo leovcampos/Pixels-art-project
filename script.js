@@ -87,7 +87,7 @@ divChoice.appendChild(inputB);
 divChoice.appendChild(buttonNum);
 
 function colorAlet(){
-    for(i = 1; i < colorSelect.length; i += 1){
+    for(i = 0; i < colorSelect.length; i += 1){
         const red = Math.floor(Math.random() * 255);
         const green = Math.floor(Math.random() * 255);
         const blue = Math.floor(Math.random() * 255);
