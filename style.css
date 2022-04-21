@@ -55,8 +55,7 @@ body{
 
 .pixel:hover{
     cursor: pointer;
-    width: 43px;
-    height: 43px;
+    box-sizing: border-box;
 }
 
 .pixel:active{
